@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Word Guessing Game JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Guess the Word</h1>
+      <div class="content">
+        <input type="text" id="user-input">
+        
+        <div class="details">
+          <p class="" id="robo"><span></span></p>
+          <input type="radio" id="easy" name="level" value="Easy">
+          <label for="easy">Easy</label><br>
+          <input type="radio" id="normal" name="level" value="Normal">
+          <label for="normal">Normal</label><br>
+          <input type="radio" id="hard" name="level" value="Hard">
+          <label for="hard">Hard</label>
+          
+        </div>
+		
+        <button class="reset-btn" id="#submit">Submit</button>
+        <!-- <button class="reset-btn" id="#reset-btn" style="margin-top:10px;">Reset Game</button> -->
+      
+	  </div>
+    </div>
+    <div class="wrapper" style="margin-left:10px;">
+      <div class="content">
+        <div class="inputs"></div>
+        <div class="details">
+          <p class="hint" id="usr"><span></span></p>
+          <p class="guess-left" id="robo"><span></span></p>
+          <p class="wrong-letter"> <span></span></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>
